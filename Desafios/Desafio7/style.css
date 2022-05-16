@@ -30,6 +30,7 @@ body{
     width: 200px;
     height: 200px;
     transition-delay: 0s;
+    
 }
 
 .caixa span{
@@ -48,7 +49,7 @@ body{
 .caixa.active span{
     width: 45px;
     height: 45px;
-    background:#393a3d;
+    background:white;
     transform: translate(calc(60px * var(--x)),calc(60px * var(--y)));
        
 }
@@ -60,7 +61,7 @@ body{
 
 .caixa.active span ion-icon{
     font-size: 1.35em;
-    color: white;
+    color: black;
 }
 
 .caixa.active span:hover ion-icon{
